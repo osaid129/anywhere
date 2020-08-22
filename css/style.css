@@ -1,0 +1,133 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    max-width:85%;
+    height: 100px;
+    margin: auto;
+
+}
+.header .group-link{
+    padding-top:10px;
+}
+.header .group-link .but{
+    text-decoration:none;
+    color: #0b0757;
+    padding: 30px 15px;
+    font-weight: 600;
+}
+.header .group-link button{
+    radios:3px;
+    padding:0.7rem 1rem;
+    font-size: 13px;
+    background-color: #fdd76e;
+    color: #0b0757;
+    border-radius: 4px;
+    margin-left: 1.5rem;
+    border:none;
+}
+.header .group-link .link:hover{
+    color: #0811fb;
+}
+.header .group-link button:hover{
+    background-color: #0b0757;
+    color: #fff;
+}
+.navbar {
+    margin:auto;
+    display:flex;
+    flex-dirction:row;
+    justify-content:space-between;
+    align-items: center;
+    max-width:85%;
+    margin-top: 20px;
+}
+.navbar .part-1{
+
+
+}
+.navbar .part-1 .but-try{
+    border:none;
+    border-radius: .5rem;
+    color: #0b0757;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    background-color: #fdd76e;
+}
+.navbar .part-1 h2{
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 1.5rem;
+    color: #0b0757;
+    line-height: 1.3;
+}
+.navbar .part-1 .pgf{
+    font-weight: 400;
+    color: #8480ae;
+    margin-buttom:1.5rem;
+    line-height: 1.9;
+    font-size: 1.5rem;
+}
+.navbar .part-1 .but-see{
+    border:none;
+    border-radius: .5rem;
+    color: #ffffff;
+    bacsground-color: #0b0757;
+    font-weight: 500;
+    padding: 1rem 1.75rem;
+    font-size: 14px;
+}
+.navbar .part-1 .but-see:hover{
+    color: #0b0757;
+    background-color: #fdd76e;
+}
+.navbar .part-1 .sircle {
+    display:flex;
+    flex-dirction:row;
+
+}
+.navbar .part-1 .sircle .content p{
+    display:flex;
+    flex-dirction:row;
+    justify-content:center;
+    align-items:center;
+    margin:30px 10px;
+    padding:.5rem;
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    background-color: #0b0757;
+    color:white;
+    font-size: 30px;
+
+}
+.navbar .part-img img{
+    border-radius: 1rem;
+}
+.card-section{
+    margin-top: 20px;
+
+
+}
+.card-section .group-of-cards{
+    display:flex;
+    flex-dirction:row;
+    justify-content:space-between;
+}
+.card-section .group-of-cards .cards{
+    width: 300px;
+    height: 300px;
+    /*border-radius: 50%;*/
+        background: #ff6e49;
+
+}
+
+
+
+
+.container-os{max-width: 1170px; margin: auto}
